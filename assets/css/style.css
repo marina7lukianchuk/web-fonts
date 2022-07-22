@@ -60,7 +60,8 @@ font-size: 36px;
 line-height: 48px;
 letter-spacing: 0.04em;
 text-transform: uppercase;
-margin-bottom: 40px; }
+margin-bottom: 40px;
+position: relative; }
 
 .paragraph {
 font-family: 'PT Sans';
@@ -79,7 +80,10 @@ font-weight: 300;
 font-size: 40%;
 text-transform: capitalize;
 line-height: 30px;
-letter-spacing: 0.04em;}
+letter-spacing: 0.04em;
+position: absolute;
+top: 0;
+margin-left: 10px;}
 
 .main_section {
 margin: auto auto 70px;
